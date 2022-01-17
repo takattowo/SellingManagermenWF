@@ -140,6 +140,7 @@
             this.btnManufacture.TextColor = System.Drawing.Color.White;
             this.btnManufacture.UseVisualStyleBackColor = false;
             this.btnManufacture.Visible = false;
+            this.btnManufacture.Click += new System.EventHandler(this.btnManufacture_Click);
             // 
             // btnProduct
             // 
@@ -181,6 +182,7 @@
             this.btnClient.TextColor = System.Drawing.Color.White;
             this.btnClient.UseVisualStyleBackColor = false;
             this.btnClient.Visible = false;
+            this.btnClient.Click += new System.EventHandler(this.btnClient_Click);
             // 
             // btnImport
             // 
@@ -201,6 +203,7 @@
             this.btnImport.TextColor = System.Drawing.Color.White;
             this.btnImport.UseVisualStyleBackColor = false;
             this.btnImport.Visible = false;
+            this.btnImport.Click += new System.EventHandler(this.btnImport_Click);
             // 
             // btnExport
             // 
@@ -221,6 +224,7 @@
             this.btnExport.TextColor = System.Drawing.Color.White;
             this.btnExport.UseVisualStyleBackColor = false;
             this.btnExport.Visible = false;
+            this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
             // 
             // btnLoggout
             // 

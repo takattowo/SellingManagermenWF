@@ -21,6 +21,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Update="UserControls\ImportingBillManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserControls\ExportingBillManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserControls\ManufactureManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserControls\ClientManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="UserControls\ProductManager.cs">
       <SubType>Form</SubType>
     </Compile>

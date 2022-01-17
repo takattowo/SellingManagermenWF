@@ -77,5 +77,33 @@ namespace SellingManagermenWF
             if (activedForm != pForm)
                 AddForm(pForm = new());
         }
+        public static ClientManager? cmForm;
+        private void btnClient_Click(object sender, EventArgs e)
+        {
+            if (activedForm != cmForm)
+                AddForm(cmForm = new());
+        }
+
+        public static ManufactureManager? mfForm;
+        private void btnManufacture_Click(object sender, EventArgs e)
+        {
+            if (activedForm != mfForm)
+                AddForm(mfForm = new());
+        }
+
+        public static ExportingBillManager? ebForm;
+        private void btnExport_Click(object sender, EventArgs e)
+        {
+            if (activedForm != ebForm)
+                AddForm(ebForm = new());
+
+        }
+
+        public static ImportingBillManager? ipForm;
+        private void btnImport_Click(object sender, EventArgs e)
+        {
+            if (activedForm != ipForm)
+                AddForm(ipForm = new());
+        }
     }
 }
